@@ -1,0 +1,76 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+body{
+    background: #222;
+    background: linear-gradient(#000, #222);
+    color: #bbb;
+}
+
+#counter{
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 6em;
+    margin: 40px 0;
+    text-align: center;
+}
+
+svg{
+    width: 400px;
+    margin: 80px auto;
+    display: block
+}
+
+.slice1{
+    fill: #C37F03;
+}
+.slice2{
+    fill: #B33104;
+}
+.slice3{
+    fill: #017EA7;
+}
+.slice4{
+    fill: #007100;
+}
+.slice5{
+    fill: #bbb;
+}
+
+.score1,
+.score2,
+.score3,
+.score4,
+.score5 {
+    position: absolute;
+    font-size: 70px;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.score1 {
+    left: 640px;
+    top: 180px;
+}
+
+.score2 {
+    left: 710px;
+    top: 420px;
+}
+
+.score3 {
+    top: 630px;
+    width: 100%;
+    text-align: center;
+}
+
+.score4 {
+    right: 710px;
+    top: 420px;
+}
+
+.score5 {
+    right: 640px;
+    top: 180px;
+}
