@@ -43,10 +43,25 @@ svg{
 .score2,
 .score3,
 .score4,
-.score5 {
+.score5,
+.scoreModifier {
     position: absolute;
     font-size: 70px;
     font-family: Impact, Charcoal, sans-serif;
+}
+
+.score1.active,
+.score2.active,
+.score3.active,
+.score4.active,
+.score5.active{
+    color: #FFE041;
+}
+
+.score3,
+.scoreModifier {
+    width: 100%;
+    text-align: center;
 }
 
 .score1 {
@@ -61,8 +76,6 @@ svg{
 
 .score3 {
     top: 630px;
-    width: 100%;
-    text-align: center;
 }
 
 .score4 {
@@ -73,4 +86,9 @@ svg{
 .score5 {
     right: 640px;
     top: 180px;
+}
+
+.scoreModifier {
+    top: 370px;
+    text-shadow: 0 0 10px #000, 0 0 15px #000, 0 0 20px #000;
 }
